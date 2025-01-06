@@ -1,36 +1,36 @@
-#GForge
--soon to be refactored into the following organization
+# GForge
+- soon to be refactored into the following organization
 
 
 
-#GForge module
+# GForge module
 -packages utility classes with the GForger class
 
-##GForger class
+## GForger class
 -crafts, forges, and assembles 
 
-#DProduct class
+# DProduct class
 -stores data for each weapon, names of glyphs and componenerts
 
-#Material class
+# Material class
 -stores data for materials such as oil type
 
-#GUtil module
+# GUtil module
 
-##GShopper class
+## GShopper class
 -buys materials and banks, exchanges
 
-##GBagger class
+## GBagger class
 -manipulates inventory
 
-##GSettings class
+## GSettings class
 -sets default, imports current, updates settings
 
-##GInterface class
+## GInterface class
 -parses command strings
 -manages gui
 
-##GIO class
+## GIO class
 -displays output and receives input from console
   gError method
   gWarn method
